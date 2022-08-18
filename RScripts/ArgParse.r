@@ -1,5 +1,3 @@
-#~/bin/bash
-
 # Handy set of functions to enable parsing command line arguments in an R script run from the command line
 # Usage:
 # 	source('/path/to/arrgparse.r')
