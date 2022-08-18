@@ -4,15 +4,15 @@
 # Usage:
 # 	source('/path/to/arrgparse.r')
 
-set_local_libPath <- function(path){
-  mypaths <- .libPaths()
-  mypaths <- c(path, mypaths)
-  .libPaths(mypaths)
-}
+#set_local_libPath <- function(path){
+#  mypaths <- .libPaths()
+#  mypaths <- c(path, mypaths)
+#  .libPaths(mypaths)
+#}
 
 #setting libpath for windows
-set_local_libPath('C:/Users/Sithija/Documents/R/win-library/4.0')
-library('getopt')
+#set_local_libPath('C:/Users/Sithija/Documents/R/win-library/4.0')
+#library('getopt')
 #library("getopt", lib.loc="~/R/win-library/4.0")
 
 
